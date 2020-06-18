@@ -1,0 +1,12 @@
+server:
+  port: 0
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  data:
+    mongodb:
+      password: '{cipher}AQCgz78BD0Fhelu9VaHsRdnauBwRndhkvqy7I5QP+ZtVRRRKBKO4gIRzlqG4ipAXv4BEnSpLPdQUJCvSQT9SKavfW8Es8ob/6TfBJLcedBDGh3ml4ys/iyqDRV3kXPnQrXow++uI+L/2ROmxh/lZv1qMHoLa4PJTnpS9jUafvk7eT5QxPchkMCcscpzmjeFXXB+Cv7+tKt+91jK7iAbiyqCW7AEI7N1FNEUhfcyQSAQtL/kIe25+N5UoF6EV9MVVnjG5Bc9LaJx66zkvwh1Rk8IA6P+XuVJzdMgroRBm90w85XMcLfTbZLHjTu95H3zSLZmvlj7qqxfcJYu607XhavSobtZv2u4mmemO+w9zLWeA+qL5D1Qk6VQ3GQq7WhH9W1o='
